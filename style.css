@@ -14,13 +14,19 @@ body {
 .box {
   margin: 16% 20px;
   background-color: hsl(228, 56%, 26%);
-  border-radius: 10px;
-  padding: 30px;
 }
 
 .left {
   border-radius: 10px 100px 10px 10px;
-  margin: ;
+  padding-top: 40px;
+  padding: 30px;
+}
+
+.right {
+  border-radius: 10px;
+  position: relative;
+  margin-top: 350px;
+  padding: 30px;
 }
 
 .logo {
