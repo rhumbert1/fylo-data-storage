@@ -9,44 +9,53 @@
   <title>Frontend Mentor | Fylo data storage component</title>
 
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
-  <img class="background" src="images/bg-desktop.png" />
+  <div class="bg-color">
+    <img class="background" src="images/bg-desktop.png" />
 
-  <div class="row">
+    <div class="row">
 
-    <div class="col-lg-3">
+      <div class="col-lg-3">
+      </div>
+
+      <div class="col-lg-2 left box">
+        <img src="images/logo.svg" class="logo"><br>
+        <img src="images/icon-document.svg" class="icons first-icon">
+        <img src="images/icon-folder.svg" class="icons">
+        <img src="images/icon-upload.svg" class="icons">
+      </div>
+
+      <div class="col-lg-4 right box">
+        You’ve used 815 GB of your storage
+
+        185 GB Left
+        <div class="w3-light-grey w3-round-xlarge">
+          <div class="w3-container w3-round-xlarge" style="width:81%"><i class="fas fa-circle"></i></div>
+        </div>
+        0 GB
+        <div class="max-capacity">
+          1000 GB
+        </div>
+      </div>
+
+      <div class="col-lg-3">
+      </div>
+
     </div>
 
-    <div class="col-lg-2 left box">
-      <img src="images/logo.svg" class="logo"><br>
-      <img src="images/icon-document.svg" class="icons first-icon">
-      <img src="images/icon-folder.svg" class="icons">
-      <img src="images/icon-upload.svg" class="icons">
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Morfrog</a>.
     </div>
-
-    <div class="col-lg-4 right box">
-      You’ve used 815 GB of your storage
-
-      185 GB Left
-
-      0 GB
-      1000 GB
-    </div>
-
-    <div class="col-lg-3">
-    </div>
-
   </div>
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Morfrog</a>.
-  </div>
 </body>
 
 </html>

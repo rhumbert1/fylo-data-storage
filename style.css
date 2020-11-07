@@ -1,13 +1,27 @@
+@font-face {
+  font-family: "Raleway";
+  font-weight: 400, 700;
+  src: url("https://fonts.google.com/specimen/Raleway");
+}
+
+;
+
 body {
-  background-color: #0c122c !important;
   color: hsl(243, 100%, 93%) !important;
+  font-family: "Raleway";
+  font-weight: 400;
+}
+
+.bg-color {
+  background-color: #0c122c !important;
+  z-index: -1;
 }
 
 .background {
-  z-index: -1;
+  z-index: 0;
   position: fixed;
   left: 0;
-  bottom: 0;
+  bottom: -50px;
   width: 100%;
 }
 
@@ -42,6 +56,15 @@ body {
 
 .first-icon {
   margin-left: 25px;
+}
+
+.w3-container {
+  background: linear-gradient(to right, hsl(6, 100%, 80%) 0%, hsl(335, 100%, 65%) 100%);
+  text-align: right;
+}
+
+.max-capacity {
+  text-align: right;
 }
 
 .attribution {
