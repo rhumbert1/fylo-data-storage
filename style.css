@@ -1,3 +1,4 @@
+/* General */
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 
 body {
@@ -72,13 +73,7 @@ body {
   margin-left: 25px;
 }
 
-/* Right box */
-.bar {
-  margin-right: 20px;
-  margin-left: 20px;
-}
-
-/* Comics dialog box */
+/* Comics text box */
 .message {
   width: 200px;
   background-color: #fff;
@@ -115,6 +110,11 @@ body {
 }
 
 /* Progress bar */
+.bar {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
 .w3-light-grey {
   margin-top: 15px;
 }
@@ -148,6 +148,8 @@ body {
 
 /* Mobile */
 @media (max-width: 900px) {
+
+  /* Backgrond and body styling */
   .bg-img-desktop {
     display: none;
   }
@@ -156,17 +158,19 @@ body {
     display: block;
   }
 
+  /* Box */
   .box {
     margin: 0;
-  }
-
-  .left {
-    margin: 120px 50px 0;
   }
 
   .right {
     margin: 15px 50px;
     padding-bottom: 50px;
+  }
+
+  /* Left box */
+  .left {
+    margin: 120px 50px 0;
   }
 
   .logo {
@@ -177,6 +181,7 @@ body {
     margin-left: 35px;
   }
 
+  /* Comics text box */
   .message {
     position: absolute;
     left: 20%;
@@ -188,6 +193,7 @@ body {
     display: none;
   }
 
+  /* Progress bar */
   .bar {
     text-align: center;
   }
