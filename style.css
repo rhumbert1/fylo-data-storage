@@ -138,6 +138,10 @@ body {
 
 /* Footer */
 .attribution {
+  position: absolute;
+  z-index: 10;
+  bottom: 0;
+  left: 43%;
   font-size: 11px;
   text-align: center;
 }
@@ -196,5 +200,10 @@ body {
   /* Progress bar */
   .bar {
     text-align: center;
+  }
+
+  /* Footer */
+  .attribution {
+    left: 20%;
   }
 }
